@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class ink extends Model
 {
     use HasFactory;
+
+
+    protected $fillable = [
+        'colour',
+        'volume',
+        'empty'
+
+
+    ];
 }

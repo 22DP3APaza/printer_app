@@ -8,4 +8,21 @@ use Illuminate\Database\Eloquent\Model;
 class printer extends Model
 {
     use HasFactory;
+
+    protected $table = 'printers';
+
+    protected $fillable = [
+        'name',
+        'model',
+        'add_date',
+        'manufacturer',
+        'ink_type',
+        'statuss',
+        'ink_ID',
+        'UsedTimes_ID',
+        'paper_ID',
+        'notes_ID'
+
+
+    ];
 }

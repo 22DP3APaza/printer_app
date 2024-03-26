@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class paper extends Model
 {
     use HasFactory;
+    protected $table = 'papers';
+
+    protected $fillable = [
+        'size',
+        'amount',
+
+
+
+    ];
 }

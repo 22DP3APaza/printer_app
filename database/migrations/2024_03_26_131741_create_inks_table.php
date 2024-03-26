@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('inks', function (Blueprint $table) {
             $table->id();
+            $table->string('colour');
+            $table->string('volume');
+            $table->boolean('empty');
             $table->timestamps();
         });
     }

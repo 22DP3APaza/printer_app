@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('papers', function (Blueprint $table) {
             $table->id();
+            $table->string("size");
+            $table->integer('amount');
+
             $table->timestamps();
         });
     }

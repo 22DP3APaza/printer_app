@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('used_times', function (Blueprint $table) {
             $table->id();
+            $table->date('UsedDate');
+            $table->time('UsedTime');
+            $table->time('EndTime');
+            $table->time('duration');
+            $table->unsignedBigInteger('user_ID');
+            $table->foreign('user_ID')->references('id')->on('users');
             $table->timestamps();
         });
     }
