@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background: black;
+    background-color: black;
+  }
+  .header{
+    height: 200;
+    width: 100;
+    padding: 0.5% 10%;
+    background: #5b5ef1;
+    position: relative;
+  }
+  .nav-links li{
+    display: inline-block;
+    left: 90%;
+
+  }
+
+  .btn{
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .content form{
+    background: #ffffff;
+    padding: 5px 0.2%;
+    border-radius:5px;
+    display:flex;
+    width: flex;
+    max-width: 1500px;
+
+  }
+
+  .content form input {
+    flex: 1;
+    position: relative;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    z-index: 1;
+  }
+
+
+  .content form button{
+    background: #444746;
+    color: white;
+    padding: 7px 35px;
+    border-radius: 10px;
+    cursor:pointer;
+  }
+
+  .midcontent{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  width: 90%;
+  max-width: 900px;
+  transform: translate(-50%,50px);
+  text-align: center;
+  color:white;
+
+  }
+
+  .bottom{
+    background: #a8a7a7;
+    position: relative;
+    max-height: 5000px;
+    height: fit-content;
+  }
+  .bottom .filter{
+    left: 80%;
+    background: #858379;
+    position:  relative;
+    max-height: 1000px;
+    height: 800px;
+    width: 300px;
+    margin-top: 5px;
+  }
+
+  .Footer{
+    background: #555451;
+    position: relative;
+    height: 200px;
+    margin-top: 10px;
+    padding: 0.5% 10%;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .logos i{
+    margin: 0 10px;
+  }
+
+
